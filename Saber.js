@@ -7,6 +7,12 @@ saber.aliases = new Collection();
 saber.commandsUsed = 1;
 saber.messages = 1;
 
+/**
+ *   Event Handler
+ */
+const eventLoader = require("./library/EventsHandler.js");
+eventLoader(saber);
+
 
 /**
  *   Database stuff
